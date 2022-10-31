@@ -48,6 +48,7 @@ nav .float-right{
   display: flex;
   justify-content: space-between;
 }
+
 .float-right ul{
   display: flex;
   padding: 0 100px;
@@ -365,6 +366,7 @@ nav .float-right a button:hover{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
 }
 .sub-main-5-1 .check{
   width: 30px;
@@ -386,6 +388,7 @@ nav .float-right a button:hover{
   color: var(--background);
   font-size: 14px;
   margin-bottom: 25px;
+  margin-left: -255px;
 }
 .sub-main-5-1 p a{
   color: var(--primary-color);
@@ -504,6 +507,7 @@ footer .sub-footer-1 p span{
     left: -100%;
     transition: 0.6s ease-in;
   }
+
   nav .float-right a i{
     text-align: center;
   }
@@ -631,8 +635,7 @@ footer .sub-footer-1 p span{
     font-size: 18px;
     color: var(--black-color);
     margin-bottom: 40px;
-    margin-left: 60px;
-
+    width: 100%;
   }
   .divider{
     width: 100%;
@@ -647,11 +650,12 @@ footer .sub-footer-1 p span{
     justify-content: center;
     height: 150px;
     /* background-color: red; */
-    width: 80%;
+    width: 100%;
   }
   .let-flex{
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
   }
   .sub-main-5-1 input{
     padding: 12px;
@@ -669,6 +673,7 @@ footer .sub-footer-1 p span{
     color: var(--background);
     font-size: 14px;
     margin-bottom: 25px;
+    margin-left: -65px;
   }
   .sub-main-5-1 p a{
     color: var(--primary-color);
@@ -777,7 +782,7 @@ footer .sub-footer-1 p span{
   nav .float-right {
     width: 100%;
     height: 100vh;
-    display: block;
+    flex-direction: column;
     background-color: white;
     top: 70px;
     position: fixed;
@@ -798,7 +803,7 @@ footer .sub-footer-1 p span{
   /* the body of the project */
 
   .container{
-      padding: 0 20px;
+      padding: 0 16px;
       width: 100%;
     }
     .main-1{
@@ -846,7 +851,7 @@ footer .sub-footer-1 p span{
     text-align: center;
   }
   .main-3 p {
-    font-size: 28px;
+    font-size: 30px;
   }
   .main-3 .sub-main-3{
     flex-direction: column;
@@ -854,13 +859,14 @@ footer .sub-footer-1 p span{
 
   .main-4{
     flex-direction: column;
+    margin-bottom: 50px;
   }
   .main-4 img{
-    width: 250px;
+    width: 300px;
   }
   .box-1{
     display: block;
-    width: 90%;
+    width: 100%;
     height: 450px;
     background-color: var(--secondary-color);
     padding: 50px 20px;
@@ -873,7 +879,7 @@ footer .sub-footer-1 p span{
    margin-bottom: 10px;
   }
   .box-1 p img{
-   width: 140px;
+   width: 150px;
   }
   .sub-box{
     flex-direction: column;
@@ -898,27 +904,28 @@ footer .sub-footer-1 p span{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 0 45px;
-    margin-bottom: 50px;
+    padding: 0 25px;
+    margin-bottom: 30px;
     text-align: center;
   }
-  
+  /* Join Our Newsletter */
   .main-5 .sub-main-5{
     display: block;
     align-items: center;
   }
   .sub-main-5 h2{
     font-weight: 600;
-    font-size: 32px;
+    font-size: 30px;
     color: var(--black-color);
-    margin-bottom: 14px;
+    margin-bottom: 12px;
   }
   .sub-main-5 p{
     font-weight: 400;
     font-size: 14px;
     color: var(--black-color);
-    margin-bottom: 40px;
-    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    width: 100%;
 
   }
   .divider{
@@ -932,7 +939,6 @@ footer .sub-footer-1 p span{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* height: 150px; */
     width: 100%;
   }
   .let-flex{
@@ -940,13 +946,17 @@ footer .sub-footer-1 p span{
     /* justify-content: space-evenly; */
   }
   .sub-main-5-1 input{
+    width: 100%;
     padding: 12px;
     background-color: #E6ECF2;
   }
   .sub-main-5-1 input::placeholder{
     color: var(--primary-color);
     font-weight: 400;
-    font-size: 10px;
+    font-size: 14px;
+  }
+  .let-flex{
+    width: 100%;
   }
   .sub-main-5-1 .check{
     padding: 16px;
@@ -954,7 +964,8 @@ footer .sub-footer-1 p span{
   .sub-main-5-1 p{
     color: var(--background);
     font-size: 14px;
-    margin-bottom: 25px;
+    margin-left: -54px;
+    margin-bottom: 25px; 
   }
   .sub-main-5-1 p a{
     color: var(--primary-color);
@@ -963,7 +974,7 @@ footer .sub-footer-1 p span{
     text-decoration: underline;
   }
   .sub-main-5-1 button{
-    width: 90%;
+    width: 100%;
     height: 50px;
     background-color: var(--primary-color);
     color: white;
