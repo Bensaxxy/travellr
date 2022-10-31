@@ -117,7 +117,7 @@ nav .float-right a button:hover{
 .main-1 .sub-main-1 p{
   font-size: 60px;
   font-weight: 400;
-  /* width: 150%; */
+  width: 150%;
   z-index: 1;
   margin-bottom: 40px;
 }
@@ -533,7 +533,8 @@ footer .sub-footer-1 p span{
       margin-top: 0px;
     }
     .main-1 .sub-main-1 p{
-      font-size: 40px;
+      font-size: 42px;
+      width: 100%;
     }
     .main-1 .sub-main-1 p span{
       font-weight: 800;
@@ -767,7 +768,7 @@ footer .sub-footer-1 p span{
   
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:475px) {
   body{
     width: 100%;
   }
@@ -814,7 +815,8 @@ footer .sub-footer-1 p span{
       margin-top: 0px;
     }
     .main-1 .sub-main-1 p{
-      font-size: 22px;
+      font-size: 30px;
+      width: 100%;
     }
     .main-1 .sub-main-1 p span{
       font-weight: 800;
